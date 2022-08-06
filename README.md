@@ -4,7 +4,7 @@
 
 Train dataset을 로드해서 지정한 샘플 수 만큼 랜덤하게 샘플 추출.
 
-기본적으로 <code>n_samples</code> 개의 샘플을 랜덤하게 추출함. (레이블 무관, 순서 무관, 총 <code>n_samples</code> 개수 만큼 뽑아냄)
+기본적으로 <code>n_samples</code> 개의 샘플을 랜덤하게 추출함. (label balance 무관, 순서 무관, 랜덤하게 총 <code>n_samples</code> 개수 만큼 뽑아냄)
 
 <code>--per_class</code> 옵션을 같이 주면 각 클래스 마다 <code>n_samples</code> 개 만큼의 샘플을 뽑음.
 
